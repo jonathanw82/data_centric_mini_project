@@ -37,3 +37,8 @@ Set IP and PORT on Heroku so server instance on Heroku will know how to run our 
 In settings on Heroku, config vars - IP 0.0.0.0 and PORT 5000
 
 Then open app
+
+install pip3 install flask-pymongo 
+
+install pip3 install dnspython
+
