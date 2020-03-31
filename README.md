@@ -29,7 +29,11 @@ Then need to create a procfile which is an instruction to Heroku as to which fil
 Specify that using echo web Python - echo web: python app.py > Procfile 
 
 Then git add . , git commit -m, and git push heroku master
+
 We then want to run our application by sending a command to Heroku heroku ps:scale web=1
+
 Set IP and PORT on Heroku so server instance on Heroku will know how to run our Flask application
+
 In settings on Heroku, config vars - IP 0.0.0.0 and PORT 5000
+
 Then open app
